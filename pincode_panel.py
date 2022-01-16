@@ -33,12 +33,6 @@ def check(num): # checks the entered password:
 		fieldCode = ''
 		rpc()
 		placeAllButton()
-	if (int(fieldCode) == code): # -whether it matches the passcode
-		messagebox.showinfo('РЕЗУЛЬТАТ', 'Вы успешно вошли в систему!')		
-		textDiary.delete(1.0, END)
-		fieldCode = ''
-		rpc()
-		placeAllButton()
 
 def placeAllButton(): # places all buttons except the last one
 	# creating buttons in a list
